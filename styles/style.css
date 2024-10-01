@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+section{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+h1{
+    font-size: 2rem;
+    text-align: center;
+}
+
+input{
+    width: 100%;
+    height: 1.5rem;
+}
+
+.ADD_button{
+    width: 100%;
+    height: 1.5rem;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.task{
+    width: 100%;
+    height: 1.5rem;
+    border: 1px black solid;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+    background-color: #ffcb8e;
+}
+
+.task_text{
+    padding-left: 1rem;
+}
