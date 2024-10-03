@@ -69,8 +69,18 @@ ul{
     color: white;
 }
 
+.done_button_success{
+    background-color: rgb(255, 196, 0);
+    margin-left: auto;
+    color: black;
+}
+
 .del_button{
     background-color: red;
     border-radius: 0 9px 9px 0;
     color: white;
+}
+
+.done{
+    text-decoration: line-through;
 }
