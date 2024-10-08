@@ -3,19 +3,15 @@ const addButton = document.getElementById('addButton');
 const taskList = document.getElementById('taskList');
 
 
-const tasks = [
-    {
-        title:'Сделать',
-        completed: false
-    },
-    {
-        title:'Надо',
-        completed: true
-    }
-]
+const tasks = []
 
 function render() {
     taskList.innerHTML = ''
+
+    if(tasks.length === 0){
+        taskList.innerHTML = "<p>Нет элементов</p>"
+    }
+
     for(let i = 0; i < tasks.length; i++) {
         taskList.insertAdjacentHTML('beforeend', getTask(tasks[i], i))
     }
